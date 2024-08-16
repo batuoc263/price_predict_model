@@ -12,7 +12,7 @@ def get_coingecko_url(token):
     
     token = token.upper()
     if token in token_map:
-        url = f"{base_url}{token_map[token]}/market_chart?vs_currency=usd&days=90&interval=daily"
+        url = f"{base_url}{token_map[token]}/market_chart?vs_currency=usd&days=90"
         return url
     else:
         raise ValueError("Unsupported token")

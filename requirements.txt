@@ -2,4 +2,7 @@ requests
 numpy==1.23.5
 pandas
 torch
+tensorflow
 Prophet
+matplotlib
+keras
